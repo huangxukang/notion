@@ -35,3 +35,8 @@
     color: #25c2c0;
     letter-spacing: 2px;
 }
+
+::selection {
+    color: #ffffff;
+    background-color: var(--ifm-color-primary);
+}
