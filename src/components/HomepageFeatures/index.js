@@ -4,19 +4,19 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
     {
-        title: "黄",
+        title: "欲买桂花同载酒",
         Svg: require("@site/static/home-img/left.svg").default,
-        description: <>欲买桂花同载酒</>,
+        description: <></>,
     },
     {
-        title: "旭",
+        title: "终不似",
         Svg: require("@site/static/home-img/center.svg").default,
-        description: <>终不似</>,
+        description: <></>,
     },
     {
-        title: "康",
+        title: "少年游",
         Svg: require("@site/static/home-img/right.svg").default,
-        description: <>少年游</>,
+        description: <></>,
     },
 ];
 
