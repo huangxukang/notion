@@ -39,18 +39,8 @@ const config = {
                 },
                 items: [
                     {
-                        href: "https://reactjs.org/",
+                        href: "https://react.dev/",
                         label: "React",
-                        position: "right",
-                    },
-                    {
-                        href: "https://beta.reactjs.org/",
-                        label: "React Beta",
-                        position: "right",
-                    },
-                    {
-                        href: "https://docusaurus.io/",
-                        label: "Docusaurus",
                         position: "right",
                     },
                 ],
@@ -153,7 +143,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © 2019 - ${new Date().getFullYear()} 黄旭康, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/huangxukang" target="_blank">黄旭康</a>, Inc. Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</>.`,
             },
             prism: {
                 theme: lightCodeTheme,
