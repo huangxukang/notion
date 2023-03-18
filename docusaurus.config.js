@@ -143,7 +143,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © 2019 - ${new Date().getFullYear()} <a href="https://github.com/huangxukang" target="_blank">黄旭康</a>, Inc. Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</>.`,
+                copyright: `Copyright © 2019 - ${new Date().getFullYear()} 黄旭康, Inc. Built with Docusaurus.`,
             },
             prism: {
                 theme: lightCodeTheme,
