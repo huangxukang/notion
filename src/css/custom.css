@@ -40,3 +40,19 @@
     color: #ffffff;
     background-color: var(--ifm-color-primary);
 }
+
+.hero__subtitle,
+.features_src-components-HomepageFeatures-styles-module h3 {
+    display: inline-block;
+    background: linear-gradient(to right, #00b42a, #f53f3f) no-repeat right
+        bottom;
+    background-size: 0 6px;
+    transition: background-size 1000ms;
+    cursor: pointer;
+}
+
+.hero__subtitle:hover,
+.features_src-components-HomepageFeatures-styles-module h3:hover {
+    background-position-x: left;
+    background-size: 100% 6px;
+}
