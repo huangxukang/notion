@@ -42,7 +42,7 @@
 }
 
 .hero__subtitle,
-.features_src-components-HomepageFeatures-styles-module h3 {
+.container h3 {
     display: inline-block;
     background: linear-gradient(to right, #00b42a, #f53f3f) no-repeat right
         bottom;
@@ -52,7 +52,7 @@
 }
 
 .hero__subtitle:hover,
-.features_src-components-HomepageFeatures-styles-module h3:hover {
+.container h3:hover {
     background-position-x: left;
     background-size: 100% 6px;
 }
