@@ -6,7 +6,7 @@ const config = {
     title: "黄旭康",
     tagline: "我永远爱楠楠",
     favicon: "hero.jpg",
-    url: "https://huangxukang.github.io/",
+    url: "https://huangxukang.vercel.app/",
     baseUrl: "/",
     organizationName: "黄旭康",
     projectName: "黄旭康",
@@ -41,6 +41,11 @@ const config = {
                     {
                         href: "https://react.dev/",
                         label: "React",
+                        position: "right",
+                    },
+                    {
+                        href: "https://nextjs.org/",
+                        label: "Next.js",
                         position: "right",
                     },
                 ],
@@ -87,12 +92,20 @@ const config = {
                                 href: "https://fanyi.youdao.com/",
                             },
                             {
-                                label: "quicktype",
-                                href: "https://app.quicktype.io/",
+                                label: "前端工具箱",
+                                href: "https://www.runjs.cool/",
                             },
                             {
-                                label: "excalidraw",
+                                label: "Excalidraw",
                                 href: "https://excalidraw.com/",
+                            },
+                            {
+                                label: "DummyJSON",
+                                href: "https://dummyjson.com/",
+                            },
+                            {
+                                label: "quicktype",
+                                href: "https://app.quicktype.io/",
                             },
                         ],
                     },
@@ -139,6 +152,36 @@ const config = {
                             {
                                 label: "MUI",
                                 href: "https://mui.com/",
+                            },
+                        ],
+                    },
+                    {
+                        title: "Email 📫",
+                        items: [
+                            {
+                                label: "QQ邮箱",
+                                href: "https://mail.qq.com/",
+                            },
+                            {
+                                label: "139邮箱",
+                                href: "https://mail.10086.cn/",
+                            },
+                        ],
+                    },
+                    {
+                        title: "Relax 🚀",
+                        items: [
+                            {
+                                label: "抖音",
+                                href: "https://www.douyin.com/",
+                            },
+                            {
+                                label: "哔哩哔哩",
+                                href: "https://www.bilibili.com/",
+                            },
+                            {
+                                label: "网易云音乐",
+                                href: "https://music.163.com/",
                             },
                         ],
                     },

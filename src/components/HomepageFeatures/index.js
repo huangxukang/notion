@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
 
@@ -35,6 +35,8 @@ function Feature({ Svg, title, description }) {
 }
 
 export default function HomepageFeatures() {
+    useEffect(() => (document.title = "黄旭康"), []);
+
     return (
         <section className={styles.features}>
             <div className="container">
