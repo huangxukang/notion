@@ -48,6 +48,16 @@ const config = {
                         label: "Next.js",
                         position: "right",
                     },
+                    {
+                        href: "https://reactrouter.com/",
+                        label: "React Router",
+                        position: "right",
+                    },
+                    {
+                        href: "https://webpack.js.org/",
+                        label: "Webpack",
+                        position: "right",
+                    },
                 ],
             },
             footer: {
@@ -113,10 +123,6 @@ const config = {
                         title: "Frameworks 🌈",
                         items: [
                             {
-                                href: "https://reactrouter.com/",
-                                label: "React Router",
-                            },
-                            {
                                 href: "https://redux.js.org/",
                                 label: "Redux",
                             },
@@ -131,14 +137,6 @@ const config = {
                             {
                                 href: "https://cn.react-redux.js.org/",
                                 label: "React Redux 中文",
-                            },
-                            {
-                                href: "https://webpack.js.org/",
-                                label: "Webpack",
-                            },
-                            {
-                                href: "https://webpack.docschina.org/",
-                                label: "Webpack 中文",
                             },
                         ],
                     },
