@@ -58,6 +58,16 @@ const config = {
                         label: "Webpack",
                         position: "right",
                     },
+                    {
+                        href: "https://github.com/",
+                        label: "GitHub",
+                        position: "right",
+                    },
+                    {
+                        href: "https://docusaurus.io/",
+                        label: "Docusaurus",
+                        position: "right",
+                    },
                 ],
             },
             footer: {
@@ -82,15 +92,6 @@ const config = {
                             {
                                 label: "网道 - 互联网开发文档",
                                 href: "https://www.wangdoc.com/",
-                            },
-                        ],
-                    },
-                    {
-                        title: "Websites 🎨",
-                        items: [
-                            {
-                                label: "GitHub",
-                                href: "https://github.com/",
                             },
                         ],
                     },
@@ -163,23 +164,6 @@ const config = {
                             {
                                 label: "139邮箱",
                                 href: "https://mail.10086.cn/",
-                            },
-                        ],
-                    },
-                    {
-                        title: "Relax 🚀",
-                        items: [
-                            {
-                                label: "抖音",
-                                href: "https://www.douyin.com/",
-                            },
-                            {
-                                label: "哔哩哔哩",
-                                href: "https://www.bilibili.com/",
-                            },
-                            {
-                                label: "网易云音乐",
-                                href: "https://music.163.com/",
                             },
                         ],
                     },
