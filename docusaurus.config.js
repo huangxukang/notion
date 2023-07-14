@@ -68,6 +68,11 @@ const config = {
                         label: "Docusaurus",
                         position: "right",
                     },
+                    {
+                        href: "https://vercel.com/",
+                        label: "Vercel",
+                        position: "right",
+                    },
                 ],
             },
             footer: {
@@ -168,7 +173,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © 2019 - ${new Date().getFullYear()} 黄旭康, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © 2019 - ${new Date().getFullYear()} 黄旭康, Inc. Built with Docusaurus. Deploy with Vercel.`,
             },
             prism: {
                 theme: lightCodeTheme,
