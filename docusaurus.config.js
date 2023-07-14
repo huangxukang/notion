@@ -104,10 +104,6 @@ const config = {
                         title: "Tools 🔨",
                         items: [
                             {
-                                label: "有道翻译",
-                                href: "https://fanyi.youdao.com/",
-                            },
-                            {
                                 label: "前端工具箱",
                                 href: "https://www.runjs.cool/",
                             },
@@ -118,10 +114,6 @@ const config = {
                             {
                                 label: "DummyJSON",
                                 href: "https://dummyjson.com/",
-                            },
-                            {
-                                label: "quicktype",
-                                href: "https://app.quicktype.io/",
                             },
                         ],
                     },
