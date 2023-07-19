@@ -33,7 +33,9 @@ const config = {
         ({
             announcementBar: {
                 id: "huangxukang",
-                content: "⭐️ 种一棵树最好的时间是十年前，其次是现在",
+                content: "❤️ 种一棵树最好的时间是十年前，其次是现在",
+                textColor: "#ffffff",
+                isCloseable: true,
             },
             navbar: {
                 title: "黄旭康",
@@ -160,6 +162,11 @@ const config = {
                     },
                 ],
                 copyright: `Copyright © 2019 - ${new Date().getFullYear()} 黄旭康, Inc. Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>.<br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a>.`,
+                docs: {
+                    sidebar: {
+                        hideable: true,
+                    },
+                },
             },
             prism: {
                 theme: lightCodeTheme,
