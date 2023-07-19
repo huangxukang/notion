@@ -21,10 +21,6 @@
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-div[class^="announcementBar_"] {
-    background: linear-gradient(90deg, #7928ca, #ff0080);
-}
-
 .navbar__logo {
     border: 1px solid #25c2c0;
     border-radius: 50%;
