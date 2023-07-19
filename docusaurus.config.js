@@ -162,10 +162,10 @@ const config = {
                     },
                 ],
                 copyright: `Copyright © 2019 - ${new Date().getFullYear()} 黄旭康, Inc. Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>.<br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a>.`,
-                docs: {
-                    sidebar: {
-                        hideable: true,
-                    },
+            },
+            docs: {
+                sidebar: {
+                    hideable: true,
                 },
             },
             prism: {
