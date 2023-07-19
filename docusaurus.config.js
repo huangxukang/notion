@@ -31,6 +31,10 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            announcementBar: {
+                id: "huangxukang",
+                content: "⭐️ 种一棵树最好的时间是十年前，其次是现在",
+            },
             navbar: {
                 title: "黄旭康",
                 logo: {
@@ -61,16 +65,6 @@ const config = {
                     {
                         href: "https://github.com/",
                         label: "GitHub",
-                        position: "right",
-                    },
-                    {
-                        href: "https://docusaurus.io/",
-                        label: "Docusaurus",
-                        position: "right",
-                    },
-                    {
-                        href: "https://vercel.com/",
-                        label: "Vercel",
                         position: "right",
                     },
                 ],
@@ -165,7 +159,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © 2019 - ${new Date().getFullYear()} 黄旭康, Inc. Built with Docusaurus. Deploy with Vercel.`,
+                copyright: `Copyright © 2019 - ${new Date().getFullYear()} 黄旭康, Inc. Built with <a href="https://docusaurus.io/" target="_blank">Docusaurus</a>.<br>Powered by <a href="https://vercel.com/" target="_blank">Vercel</a>.`,
             },
             prism: {
                 theme: lightCodeTheme,
