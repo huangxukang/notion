@@ -21,7 +21,7 @@
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* 公共条样式 */
+/* 顶部公告栏样式 */
 
 div[class^="announcementBar_"] {
     height: 40px;
@@ -34,7 +34,7 @@ div[class^="announcementBar_"] div:nth-of-type(2) {
     font-style: italic;
 }
 
-/* 导航条样式 */
+/* 导航栏样式 */
 
 .navbar__brand:hover .navbar__logo {
     animation-name: navbarBrand;

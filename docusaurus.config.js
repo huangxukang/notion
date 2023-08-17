@@ -117,6 +117,10 @@ const config = {
                         title: "Frameworks 🌈",
                         items: [
                             {
+                                href: "https://react.docschina.org/",
+                                label: "React 中文",
+                            },
+                            {
                                 href: "https://redux.js.org/",
                                 label: "Redux",
                             },
