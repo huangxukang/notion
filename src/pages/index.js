@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import Spotlight from "@site/src/components/Spotlight";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -34,6 +35,7 @@ export default function Home() {
             <HomepageHeader />
             <main>
                 <HomepageFeatures />
+                <Spotlight />
             </main>
         </Layout>
     );
