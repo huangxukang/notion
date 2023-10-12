@@ -1,119 +1,119 @@
 :root {
-    --ifm-color-primary: #25c2a0;
-    --ifm-color-primary-dark: #21af90;
-    --ifm-color-primary-darker: #1fa588;
-    --ifm-color-primary-darkest: #1a8870;
-    --ifm-color-primary-light: #29d5b0;
-    --ifm-color-primary-lighter: #32d8b4;
-    --ifm-color-primary-lightest: #4fddbf;
-    --ifm-code-font-size: 95%;
-    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"] {
-    --ifm-color-primary: #25c2a0;
-    --ifm-color-primary-dark: #21af90;
-    --ifm-color-primary-darker: #1fa588;
-    --ifm-color-primary-darkest: #1a8870;
-    --ifm-color-primary-light: #29d5b0;
-    --ifm-color-primary-lighter: #32d8b4;
-    --ifm-color-primary-lightest: #4fddbf;
-    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 /* 顶部公告栏样式 */
 
 div[class^="announcementBar_"] {
-    height: 40px;
-    background: linear-gradient(90deg, #7928ca, #ff0080);
+  height: 40px;
+  background: linear-gradient(90deg, #7928ca, #ff0080);
 }
 
 div[class^="announcementBar_"] div:nth-of-type(2) {
-    font-size: 16px !important;
-    letter-spacing: 2px;
-    font-style: italic;
+  font-size: 16px !important;
+  letter-spacing: 2px;
+  font-style: italic;
 }
 
 /* 导航栏样式 */
 
 .navbar__brand:hover .navbar__logo {
-    animation-name: navbarBrand;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  animation-name: navbarBrand;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes navbarBrand {
-    from {
-        transform: scale(1.2);
-        margin-right: 0.5rem;
-    }
-    to {
-        transform: scale(1.6) rotateZ(360deg);
-        margin-right: 1.5rem;
-    }
+  from {
+    transform: scale(1.2);
+    margin-right: 0.5rem;
+  }
+  to {
+    transform: scale(1.6) rotateZ(360deg);
+    margin-right: 1.5rem;
+  }
 }
 
 .navbar__brand .navbar__logo {
-    border: 1px solid #25c2c0;
-    border-radius: 50%;
-    padding: 2px;
+  border: 1px solid #25c2c0;
+  border-radius: 50%;
+  padding: 2px;
 }
 
 .navbar__brand .navbar__logo img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .navbar__brand .navbar__title {
-    font-size: 20px;
-    background: linear-gradient(90deg, #7928ca, #ff0080);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  background: linear-gradient(90deg, #7928ca, #ff0080);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 /* 主页渐变线条动画样式 */
 
 .hero__title {
-    display: inline-block;
-    cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .hero__title:hover {
-    animation-name: heroTitle;
-    animation-duration: 0.2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  animation-name: heroTitle;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes heroTitle {
-    from {
-        transform: rotateZ(10deg);
-    }
-    to {
-        transform: rotateZ(-10deg);
-    }
+  from {
+    transform: rotateZ(10deg);
+  }
+  to {
+    transform: rotateZ(-10deg);
+  }
 }
 
 .hero__subtitle,
 .feature-text {
-    display: inline-block;
-    background: linear-gradient(90deg, #7928ca, #ff0080) no-repeat right bottom;
-    background-size: 0 6px;
-    transition: background-size 1000ms;
-    cursor: pointer;
+  display: inline-block;
+  background: linear-gradient(90deg, #7928ca, #ff0080) no-repeat right bottom;
+  background-size: 0 6px;
+  transition: background-size 1000ms;
+  cursor: pointer;
 }
 
 .hero__subtitle:hover,
 .feature-text:hover {
-    background-position-x: left;
-    background-size: 100% 6px;
+  background-position-x: left;
+  background-size: 100% 6px;
 }
 
 /* 全局文字选中样式 */
 
 ::selection {
-    color: #ffffff;
-    background-color: var(--ifm-color-primary);
+  color: #ffffff;
+  background-color: var(--ifm-color-primary);
 }

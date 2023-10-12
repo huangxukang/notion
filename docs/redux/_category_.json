@@ -1,8 +1,8 @@
 {
-    "label": "redux",
-    "position": 8,
-    "link": {
-        "type": "generated-index",
-        "description": "you don't konw redux."
-    }
+  "label": "redux",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "you don't konw redux."
+  }
 }
