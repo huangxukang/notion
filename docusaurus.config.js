@@ -33,7 +33,7 @@ const config = {
     ({
       announcementBar: {
         id: "huangxukang",
-        content: "❤️ 种一棵树最好的时间是十年前，其次是现在",
+        content: "❤️ 知不足而奋进，望远山而前行",
         textColor: "#ffffff",
         isCloseable: true,
       },

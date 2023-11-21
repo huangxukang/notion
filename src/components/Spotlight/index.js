@@ -1,13 +1,29 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 const Spotlight = () => {
   const [mouseX, setMouseX] = useState(0);
   const [mouseY, setMouseY] = useState(0);
-  const ref = useRef(null);
+  const [display, setDisplay] = useState("none");
 
   const handleMouseMove = (event) => {
-    setMouseX(event.clientX);
-    setMouseY(event.clientY);
+    if (document.body.clientWidth > 1000) {
+      const x = event.clientX;
+      const y = event.clientY;
+      if (
+        x > 40 &&
+        x < document.body.clientWidth - 40 &&
+        y > 40 &&
+        y < document.body.clientHeight - 40
+      ) {
+        setMouseX(event.clientX);
+        setMouseY(event.clientY);
+        setDisplay("block");
+      } else {
+        setDisplay("none");
+      }
+    } else {
+      setDisplay("none");
+    }
   };
 
   useEffect(() => {
@@ -18,17 +34,19 @@ const Spotlight = () => {
   }, []);
 
   return (
-    <div ref={ref} onMouseMove={handleMouseMove}>
+    <div onMouseMove={handleMouseMove}>
       <div
         style={{
-          width: "100px",
-          height: "100px",
+          display: display,
+          width: "80px",
+          height: "80px",
           border: "1px solid #ff0080",
           borderRadius: "50%",
           pointerEvents: "none",
           position: "fixed",
-          top: mouseY - 50,
-          left: mouseX - 50,
+          top: mouseY - 40,
+          left: mouseX - 40,
+          zIndex: 9999,
         }}
       ></div>
     </div>
