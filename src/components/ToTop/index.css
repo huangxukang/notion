@@ -1,0 +1,8 @@
+.to-top-img {
+  width: 50px;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+  z-index: 9999;
+}

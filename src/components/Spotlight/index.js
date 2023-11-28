@@ -10,10 +10,10 @@ const Spotlight = () => {
       const x = event.clientX;
       const y = event.clientY;
       if (
-        x > 40 &&
-        x < document.body.clientWidth - 40 &&
-        y > 40 &&
-        y < document.body.clientHeight - 40
+        x > 6 &&
+        x < document.body.clientWidth - 6 &&
+        y > 6 &&
+        y < document.body.clientHeight - 6
       ) {
         setMouseX(event.clientX);
         setMouseY(event.clientY);
